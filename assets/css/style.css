@@ -1,0 +1,51 @@
+.gradiente{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin:0%;
+    top:0%;
+    right:0%;
+    left:0%;
+    height: 100vh;
+    width: 100vw;
+    background:linear-gradient(45deg,#00FFAB,#14C38E,#B8F1B0,#E3FCBF);
+    background-size: 400%,400%;
+    animation: colors 15s ease infinite;
+    
+}
+header{
+    height: 10vh;
+    width: 100vw;
+}
+.title{
+    text-decoration: underline;
+}
+
+.cabeçalho{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+
+}
+.principal{
+    display: flex;
+    flex-direction: column;
+   
+    
+
+
+}
+@keyframes colors{
+    0%{
+        background-position: 0%,50%;  
+    }
+    50%{
+        background-position: 100%,50%;
+    }
+    100%{
+        background-position: 0%,50%;
+    }
+}
